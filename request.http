@@ -1,0 +1,34 @@
+GET http://localhost:5000/api/product
+
+###
+
+POST  http://localhost:5000/api/product
+Content-Type: application/json
+
+{
+    "name": "Dây đeo Watch 40mm Sport Band",
+    "price": 1290000,
+    "type": "phu-kien"
+}
+
+####
+
+GET http://localhost:5000/api/product/62e963e5082cf1a18f9429be
+
+###
+
+PUT http://localhost:5000/api/product/62e964c85cbe0f03f572773f
+Content-Type: application/json
+
+{
+    "name": "Dây đeo Watch 40mm Sport Band 3",
+    "price": 1290000,
+    "type": "phu-kien",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm34rv5onXNGrPvQIJ3xhcUL5ldjamyQikNQ&usqp=CAU"
+}
+
+###
+
+DELETE  http://localhost:5000/api/product/62e964c95cbe0f03f5727747
+
+###
