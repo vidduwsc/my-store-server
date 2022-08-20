@@ -16,8 +16,7 @@ const ProductSchema = new Schema({
     require: true,
   },
   image: {
-    type: String,
-    require: true,
+    type: Buffer,
   },
 });
 
