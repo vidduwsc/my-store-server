@@ -3,6 +3,6 @@
 - Sử dụng framework express
 - Kết nối với cơ sở dữ liệu MonggoDB bằng thư viện mongoose
 
-- API: "https://server-my-store.herokuapp.com/api/"
+- API: "https://server-my-store.herokuapp.com/api/product"
 
 NodeJS, Express, MonggoDB
